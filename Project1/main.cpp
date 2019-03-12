@@ -1,6 +1,6 @@
 #include <stdio.h> 
-#include <y.tab.h>
-int yylex();
+#include "y.tab.h"
+extern int yylex();
 extern FILE *yyin;
 YYSTYPE yylval;
 int main(int argc, char* argv[]) 

@@ -9,8 +9,8 @@ enum yytokentype
 }; 
 union YYSTYPE 
 {
-	char* name;     
-	int num; 
+	char* name;
+	int num;
 };
 
 extern YYSTYPE yylval;
